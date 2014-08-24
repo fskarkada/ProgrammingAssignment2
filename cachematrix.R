@@ -7,7 +7,6 @@ makeCacheMatrix <- function(original.matrix = matrix()) {
 if (!is.matrix(original.matrix)) {
 	stop(" give a matrix")
    }
-
    invertd.matrix <- NULL
    set <- funtion(y) {
     original.matrix <<- y
