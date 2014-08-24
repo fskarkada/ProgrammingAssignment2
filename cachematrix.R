@@ -9,7 +9,6 @@ if (!is.matrix(original.matrix)) {
    }
 
    invertd.matrix <- NULL
-   
    set <- funtion(y) {
     original.matrix <<- y
     inverted.matrix <<- NULL
