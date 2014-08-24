@@ -38,6 +38,7 @@ if(!is.null(inverted.matrix)) {
 message("Getting cached inverse matrix")
 return(inverted.matrix)
 }
+
 # To create inverted matrix in case there's no cached matrix available.
 matrix.to.inverse <- cacheable.matrix$get()
 inverted.matrix <- solve(matrix.to.inverse)
